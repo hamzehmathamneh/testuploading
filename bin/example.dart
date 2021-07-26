@@ -3,8 +3,11 @@ Map user = {
   "age": 20,
 };
 
+double number = 30.0;
+bool condition = user["age"] < 20;
+
 void main() {
-  if (user["age"] < 20) {
+  if (condition) {
     print("not 20");
   } else if (user["age"] >= 20) {
     print("he is 20 years old");
