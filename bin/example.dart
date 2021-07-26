@@ -3,7 +3,6 @@ Map user = {
   "age": 20,
 };
 
-double number = 30.0;
 bool condition = user["age"] < 20;
 
 void main() {
